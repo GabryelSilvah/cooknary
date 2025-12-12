@@ -45,7 +45,7 @@ sendo liberado fazer somente aquilo que seu nível de acesso o atribui a fazer.
 - React 18.2.0
 - MySql
 
-## Rotas da API
+## Exemplificação de Rotas 
 
 <table>
   <tr>
@@ -108,7 +108,7 @@ Autenticação através do token com JWT, onde a API recebe uma request para val
 
 
 <p>
-Com @Secured("ADMIN") ou @Secured("USER") em cada método da controller, você consegue definir qual usuário com tal nível de acesso tem permissão de usar o recurso do método.
+Com @Secured("ADMIN") ou @Secured("USER") em cada método da controller, você consegue definir qual usuário com um nível de acesso tem permissão de usar o recurso do método.
 </p>
 
 
